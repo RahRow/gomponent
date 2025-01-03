@@ -1,5 +1,6 @@
 #include "api.hpp"
 #include "Gomponent.hpp"
+#include <stdarg.h>
 
 #ifdef __cplusplus
 extern "C"

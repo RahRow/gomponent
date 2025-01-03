@@ -3,8 +3,8 @@ project(Go LANGUAGES C CXX VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(sdk)
-add_subdirectory(network)
+add_subdirectory(open.mp-sdk)
+add_subdirectory(open.mp-network)
 
 include_directories(
 	.
